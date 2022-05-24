@@ -1,0 +1,91 @@
+/* Universal styles for webpage */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Syles for h1, h2, h3, p, navbar and ul */
+
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 70px;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 45px;
+  line-height: 1.5;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+  margin-bottom: 15px;
+  font-size: 50px;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Styles for main image in header */
+
+img {
+  margin-bottom: none;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+/* Styles for "About Us" and "Our Services" Sections */
+
+section {
+  background-image: linear-gradient(lightgreen, pink, orange);
+  margin-right: 15px;
+  margin-left: 15px;
+  border: 3px solid #0a50dc;
+  border-radius: 50px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* Media Querie to make website responsive */
+
+@media screen and (min-width: 280px) and (max-width: 820px) {
+  section {
+    width: 90%;
+    min-height: 50%;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  nav {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  img {
+    max-width: 80%;
+    max-height: 80%;
+  }
+}

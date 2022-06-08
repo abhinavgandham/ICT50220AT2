@@ -39,12 +39,8 @@ ul {
   list-style-type: none;
 }
 
-/* Styles for main image in header */
-
-img {
-  margin-bottom: none;
-  max-width: 80%;
-  max-height: 80%;
+a {
+  color: blue;
 }
 
 /* Styles for header, footer and  "About Us" and "Our Services" Sections */
@@ -59,6 +55,26 @@ footer {
   border-radius: 50px;
   text-align: center;
   min-height: 100vh;
+}
+
+#header {
+  background-image: url("../images/glassessbg1.jpg");
+  background-size: cover;
+}
+
+#services {
+  background-image: url("../images/glassessbg2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#services p {
+  font-size: 30px;
+}
+
+img {
+  height: 100px;
+  width: 100px;
 }
 
 /* Media Querie to make website responsive */
@@ -76,20 +92,41 @@ footer {
   }
 
   h2 {
-    font-size: 50px;
+    font-size: 40px;
   }
 
-  nav {
+  h3 {
     font-size: 30px;
+  }
+
+  ul {
+    margin-bottom: 20rem;
+  }
+
+  li {
+    font-size: 20px;
   }
 
   p {
     font-size: 20px;
     line-height: 1.5;
   }
-
   img {
-    max-width: 80%;
-    max-height: 80%;
+    height: 50px;
+    width: 50px;
+  }
+
+  #header {
+    background-position: right;
+    background-size: cover;
+  }
+
+  #services {
+    background-size: cover;
+    background-position: center;
+  }
+
+  #services p {
+    font-size: 20px;
   }
 }

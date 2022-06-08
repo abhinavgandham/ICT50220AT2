@@ -72,6 +72,10 @@ footer {
   font-size: 30px;
 }
 
+footer p {
+  line-height: 0.5;
+}
+
 img {
   height: 100px;
   width: 100px;
